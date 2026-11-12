@@ -1,0 +1,243 @@
+body {
+    background-color: black;
+        overflow-x: hidden;
+}
+
+.IMGP{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.IMGP2{
+    position: absolute;
+    top: 880px;
+    left: 0px;
+}
+.IMGP3{
+    position: absolute;
+    top: 740px;
+    left: 1550px;
+
+    z-index: 99998;
+}
+
+.LINE1{
+    position: absolute;
+    top: 00px;
+    left: 1243px;
+
+    height: 882px;
+    width: 2px;
+
+    background-color: rgb(78, 76, 76);
+    
+    z-index: 9999;
+}
+.LINE2{
+    position: absolute;
+    top: 882px;
+    left: 0px;
+
+    height: 1px;
+    width: 1920px;
+
+    background-color: rgb(78, 76, 76);
+    
+    z-index: 9999;
+}
+.SQUARE{
+    position: absolute;
+    top: 0px;
+    left: 1245px;
+
+    height: 882px;
+    width: 1000px;
+
+    background-color: rgb(32, 31, 31);
+    
+    z-index: 9999;
+}
+.TXT1{
+    position: absolute;
+    left: 1310px;
+    top: 200px;
+
+    color: white;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    z-index: 9999;
+}
+
+/* */ 
+/* */ 
+/* */ 
+
+.INPUT_email{
+    position: absolute;
+
+    top: 245px;
+    left: 1310px;
+
+    height: 60px;
+    width: 540px;
+
+    border-radius: 15px;
+    border: 1px solid #555;
+    outline: none;
+
+    background-color: rgb(27, 26, 26);
+    color: white;
+
+    padding-left: 18px;
+
+    font-family: "Segoe UI", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+    z-index: 9999;
+}
+.INPUT_email:hover{
+       border: 1px solid #fffbfba2;
+}
+
+
+.INPUT_PASS{
+    position: absolute;
+
+    top: 325px;
+    left: 1310px;
+
+    height: 60px;
+    width: 540px;
+
+    border-radius: 15px;
+    border: 1px solid #555;
+    outline: none;
+
+    background-color: rgb(27, 26, 26);
+    color: white;
+
+    padding-left: 17px;
+    padding-top: 0px;
+
+    font-family: "Segoe UI", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+    z-index: 9999;
+}
+.INPUT_PASS:hover{
+       border: 1px solid #fffbfba2;
+}
+
+/* */ 
+/* */ 
+/* */ 
+
+
+.BUTTON_entrar{
+    position: absolute;
+    top: 410px;
+    left: 1315px;
+
+    height: 45px;
+    width: 550px;
+
+    border-radius: 25px;
+    border: none;
+
+    color: rgba(255, 255, 255, 0.363);
+    background-color: rgba(23, 76, 141, 0.733);
+
+
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+
+    z-index: 9999;
+}
+.BUTTON_entrar:hover{
+    cursor: not-allowed;
+}
+
+
+.BUTTON_senha{
+    position: absolute;
+    top: 475px;
+    left: 1315px;
+
+
+    height: 45px;
+    width: 550px;
+
+    color: white;
+    background-color: rgba(255, 0, 0, 0);
+
+    border: none;
+    border-radius: 25px;
+
+
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 500;
+
+    z-index: 9999;
+}.BUTTON_senha:hover{
+    background-color: rgba(255, 255, 255, 0.123);
+    cursor: pointer;
+}
+
+.BUTTON_fcbook{
+    position: absolute;
+    top: 585px;
+    left: 1315px;
+
+
+    height: 45px;
+    width: 550px;
+
+    color: white;
+    background-color: rgba(65, 66, 66, 0.733);
+
+    border: none;
+    border-radius: 25px;
+
+
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 500;
+
+    z-index: 9999;
+}.BUTTON_fcbook:hover{
+    background-color: rgba(255, 255, 255, 0.123);
+    cursor: pointer;
+}
+
+.BUTTON_nacc{
+    position: absolute;
+    top: 655px;
+    left: 1315px;
+
+
+    height: 45px;
+    width: 550px;
+
+    color: #379BFF;
+    background-color: rgba(65, 66, 66, 0);
+
+    border: 1px solid #379BFF;
+    
+    border-radius: 25px;
+
+
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+
+    z-index: 9999;
+}.BUTTON_fcbook:hover{
+    background-color: rgba(255, 255, 255, 0.123);
+    cursor: pointer;
+}
